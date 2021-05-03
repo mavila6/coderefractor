@@ -42,18 +42,18 @@ a {
 p {
     font-size: 16px;
 }
-
+/* Assigns footer font and centers content */
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* Assigns a font size to footer */
 footer h2 {
     font-size: 20px;
 }
-
+/* Decides the background image and its parameters */
 .hero {
     height: 800px;
     width: 100%;
@@ -62,13 +62,13 @@ footer h2 {
     background-size: cover;
     background-position: center;
 }
-
+/* Determines content in main element size and allows other elements to be placed next to it */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* Determines placement of article classes as well as the font and colors */
 .articles {
     margin-bottom: 20px;
     padding: 50px;
@@ -77,26 +77,26 @@ footer h2 {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* Gives the image in articles class sizing */
 .articles img {
     max-height: 200px;
 }
-
+/* Determines the properties of the subheadings in articles class */
 .articles h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* Moves image to the left of text */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* Moves image to the right of text */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* Determines the placement of elements within thw aside element; adds background color; assigns font */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -107,17 +107,17 @@ footer h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* Assigns color to font and space underneath */
 .benefit-type {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* Aligns the text in the center of the div */
 .benefit-type h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* Makes image a block element and determines the size */
 .benefit-type img {
     display: block;
     margin: 10px auto;

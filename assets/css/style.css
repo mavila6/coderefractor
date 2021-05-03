@@ -1,25 +1,26 @@
+/* Gives entire HTML spacing parameters */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* Gives the entire body a background color */
 body {
     background-color: #d9dcd6;
 }
-
+/* Assigns the header a font and changes the color */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* Changes h1 font zize and allows other elements to be displayed by its side */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* Moves nav elements to the right of h1 and assigns font properties as well as spacing */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -27,17 +28,17 @@ header nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* Allows list items to be displayed next to the h1 element and changes spacing */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* Assigns color to anchor elements and removes text decoration */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* Assigns a font size to paragraph elements */
 p {
     font-size: 16px;
 }

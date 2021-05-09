@@ -28,11 +28,11 @@ Horiseon is a website that provides helpful tips and information to help you imp
 
 ## Screenshots
 
-![Screenshot](/../coderefractor/assets/images/screenshot-1.png)
+![alt text](assets/images/screenshot-1.png)
 
-![Screenshot](/../coderefractor/assets/images/screenshot-2.png)
+![alt text](assets/images/screenshot-2.png)
 
-![Screenshot](/../coderefractor/assets/images/screenshot-3.png)
+![alt text](assets/images/screenshot-3.png)
 
 ## Credits
 

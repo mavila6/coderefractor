@@ -1,8 +1,10 @@
-/* Gives entire HTML spacing parameters */
+/* Gives entire HTML spacing parameters and white font color for all text */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    /* Added font color to universal selector since it is repeated throughout the document */
+    color: #ffffff;
 }
 /* Gives the entire body a background color */
 body {
@@ -13,7 +15,6 @@ header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
-    color: #ffffff;
 }
 /* Changes h1 font zize and allows other elements to be displayed by its side */
 header h1 {
@@ -29,32 +30,16 @@ header nav {
     font-size: 20px;
 }
 /* Allows list items to be displayed next to the h1 element and changes spacing */
-header nav ul li {
+header li {
     display: inline-block;
     margin-left: 25px;
 }
 /* Assigns color to anchor elements and removes text decoration */
-a {
-    color: #ffffff;
+header a {
     text-decoration: none;
 }
-/* Assigns a font size to paragraph elements */
-p {
-    font-size: 16px;
-}
-/* Assigns footer font and centers content */
-footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-/* Assigns a font size to footer */
-footer h2 {
-    font-size: 20px;
-}
 /* Decides the background image and its parameters */
-.hero {
+figure {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -63,26 +48,26 @@ footer h2 {
     background-position: center;
 }
 /* Determines content in main element size and allows other elements to be placed next to it */
-.content {
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+
 /* Determines placement of article classes as well as the font and colors */
-.articles {
+article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
-    color: #ffffff;
 }
 /* Gives the image in articles class sizing */
-.articles img {
+article img {
     max-height: 200px;
 }
 /* Determines the properties of the subheadings in articles class */
-.articles h2 {
+article h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -96,8 +81,8 @@ footer h2 {
     float: right;
     margin-left: 25px;
 }
-/* Determines the placement of elements within thw aside element; adds background color; assigns font */
-.benefits {
+/* Determines the placement of elements within the aside element; adds background color; assigns font */
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -107,19 +92,34 @@ footer h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/* Assigns color to font and space underneath */
-.benefit-type {
+/* Assigns space underneath */
+section {
     margin-bottom: 32px;
-    color: #ffffff;
 }
 /* Aligns the text in the center of the div */
-.benefit-type h3 {
+section h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 /* Makes image a block element and determines the size */
-.benefit-type img {
+section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+}
+/* Assigns footer font and centers content */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+/* Assigns a font size to footer as well as black font color */
+footer h2 {
+    font-size: 20px;
+    color:black;
+}
+/* Changes font color in p section of footer to black */
+footer p {
+    color: black;
 }

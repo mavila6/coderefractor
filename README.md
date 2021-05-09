@@ -3,28 +3,28 @@
 Horiseon is a website that provides helpful tips and information to help you implement a marketing strategy and grow your business.
 
 ## Table of Contents
- 
- ### Main
-  
-  * Search Engine Optimization
 
-  * Online Reputation Management
+### Main
 
-  * Social Media Marketing
+- Search Engine Optimization
 
-  ### Aside
+- Online Reputation Management
 
-  * Lead Generation
+- Social Media Marketing
 
-  * Brand Awareness
+### Aside
 
-  * Cost Management 
+- Lead Generation
+
+- Brand Awareness
+
+- Cost Management
 
 ## Built With
 
-* HTML
+- HTML
 
-* CSS
+- CSS
 
 ## Screenshots
 
@@ -41,4 +41,3 @@ Refractored starter code from Horiseon.
 ## License
 
 MIT &copy; Marco Avila
-

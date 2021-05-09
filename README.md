@@ -26,6 +26,10 @@ Horiseon is a website that provides helpful tips and information to help you imp
 
 - CSS
 
+## Changes Applied
+
+Refractored the code to make it more efficient as well as easier to read. Changed div elements to more specific selectors. Consolidated repetitive code in CSS stylesheet. Removed several unnecessary classes within HTML elements. Added informative comments within the HTML and CSS pages. Added alt text to all images in the HTML page to improve accessibility. Properly linked nav section to the corresponding section in page when clicked. Added proper indentation and cascading style to better organize the code and apply styles with specificity in mind.
+
 ## Screenshots
 
 ![alt text](assets/images/screenshot-1.png)
